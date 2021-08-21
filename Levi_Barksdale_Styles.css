@@ -1,0 +1,31 @@
+html{
+    background-color: #161616;
+}
+
+.introduction {
+    font-size: large;
+    color: white;
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    width: 45%;
+}
+
+.levi-picture {
+    margin: 20px;
+    padding: 30px;
+    float: right;
+    width: 40%;
+    border-radius: 100px;
+}
+
+.intro-body {
+    font-size: medium;
+    color: white;
+    position: relative;
+    left: 50px;
+    margin: 20px;
+    padding: 10px;
+    width: 45%;
+}

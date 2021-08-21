@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photos - Levi Barksdale</title>
+  <link rel="stylesheet" href="header-style.css">
+  <link rel="stylesheet" href="Photo_Gallery_Styles.css">
+</head>
+<body>
+
+<!--Creates the header bar-->
+<div class="header-bar">
+  <div class="header-bar-lead">Hello Everyone!</div>
+  <a class="header-bar-option" href="Levi_Barksdale.html"><div>Home</div></a>
+  <a class="header-bar-option" target="_blank" href="Levi_Barksdale.pdf"><div>Resume</div> </a>
+  <div class="header-bar-gap"></div>
+  <a class="header-bar-option" href=""><div class="header-bar-link">Photography Gallery</div> </a>
+  <a class="header-bar-option" href=""><div class="header-bar-link">Projects</div> </a>
+</div>
+
+<!--Main body of website. Adds photos to page.-->
+<button class="photo-button" type="button" onclick="enlargePhoto('Pictures/Sunset_03.jpg')">
+  <img id="sunset" class="photo" src="Pictures/Sunset_03.jpg" alt="Error displaying image">
+</button>
+
+<button class="photo-button" type="button" onclick="enlargePhoto('Pictures/Beach_Promontory.jpg')">
+  <img id="beach_promontory" class="photo" src="Pictures/Beach_Promontory.jpg" alt="Error displaying image">
+</button>
+
+<button class="photo-button" type="button" onclick="enlargePhoto('Pictures/Sand.jpg')">
+  <img id="sand" class="photo" src="Pictures/Sand.jpg" alt="Error displaying image">
+</button>
+
+<button class="photo-button" type="button" onclick="enlargePhoto('Pictures/Lighthouse.jpg')">
+  <img id="lighthouse" class="photo" src="Pictures/Lighthouse.jpg" alt="Error displaying image">
+</button>
+
+<button class="photo-button" type="button" onclick="enlargePhoto('Pictures/Tree_Shadow.jpg')">
+  <img id="tree_shadow" class="photo" src="Pictures/Tree_Shadow.jpg" alt="Error displaying image">
+</button>
+
+<script src="photo_onclick_displayer.js"></script>
+
+</body>
+</html>

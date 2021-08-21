@@ -1,0 +1,29 @@
+html{
+    background-color: #161616;
+}
+
+.photo {
+    margin: 20px;
+}
+.photo:not(hover){
+    transform: scale(1,1);
+    transform-origin: center;
+    transition: .2s ease;
+}
+.photo:hover{
+    transform: scale(1.1,1.1);
+    transform-origin: center;
+    transition: .2s ease;
+}
+
+#sunset {width: 518px; height: auto;}   /* Dimensions: 5184 x 3456 */
+#beach_promontory {width: auto; height: 346px;}
+#tree_shadow {width: 312px; height: auto;}
+#sand {width: 312px; height: auto;}
+#lighthouse {width: 312px; height: auto;}
+
+.photo-button {
+    margin: 0;
+    background-color: #161616;
+    border: none;
+}
