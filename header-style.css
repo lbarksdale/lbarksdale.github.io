@@ -1,0 +1,46 @@
+.header-bar {
+    margin: 20px;
+    padding: 50px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.header-bar-lead {
+    padding: 20px;
+    font-size: x-large;
+    font-family: Calibri, serif;
+    color: aqua;
+    position: relative;
+    top: -35px;
+    float: left;
+    width: 15%;
+}
+
+.header-bar-option {
+    padding: 20px;
+    background-color: #161616;
+    opacity: 50%;
+    border-radius: 10px;
+    font-size: x-large;
+    font-family: Calibri, serif;
+    color: aqua;
+    position: relative;
+    float: left;
+    top: -35px;
+    left: 50px;
+    width: 17%;
+}
+.header-bar-option:link {text-decoration: none;}
+.header-bar-option:visited {text-decoration: none;}
+.header-bar-option:hover {opacity: 80%; text-decoration: none;}
+.header-bar-option:active {text-decoration: none;}
+
+.header-bar-link:link {color: aqua; text-decoration: none;}
+.header-bar-link:visited {color: aqua; text-decoration: none;}
+.header-bar-link:hover {color: aqua; text-decoration: none;}
+.header-bar-link:active {color: aqua; text-decoration: none;}
+
+.header-bar-gap {
+    float: left;
+    width: 10%;
+}
